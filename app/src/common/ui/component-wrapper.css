@@ -10,3 +10,31 @@
     border-radius: 15px;
     padding: 20px 50px;
 }
+
+.two-column-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .form-column {
+    flex: 0 0 calc(50% - 10px); /* Adjust the width and margin as needed */
+    margin-bottom: 3px; /* Add margin to separate rows */
+    margin-right: 10px;
+  }
+  
+  /* Optional: To style labels and input elements for better alignment */
+  .form-column h3 {
+    margin-bottom: 5px;
+  }
+  
+  .form-column div {
+    display: flex;
+    align-items: center; 
+    margin-bottom: 5px;
+  }
+  
+  .form-column label {
+    margin-left: 5px;
+  }
+  
