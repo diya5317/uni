@@ -1,0 +1,41 @@
+.background-image {
+    background-image: url('home-background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed; /* i added this so the background stays the same when zooming in and out */
+    z-index: -1; /* this moves the home background to the back */
+}
+
+.main-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left; 
+    overflow-wrap: break-word;
+}
+
+.heading {
+    padding: 5px;
+    color: #42A7D5;
+    font-size: 40px;
+    margin-bottom: 10px; /* this is word-spacing */
+    white-space: nowrap;
+    overflow-wrap: break-word;
+}
+
+.services {
+    padding: 10px;
+    color: #656D6D;
+    font-size: 30px;
+    margin-bottom: 20px;  /* this is word-spacing */
+    white-space: nowrap;
+    overflow-wrap: break-word;
+}
+
+.button {
+    padding: 30px;
+    margin: 0;
+    align-items: left;
+}
